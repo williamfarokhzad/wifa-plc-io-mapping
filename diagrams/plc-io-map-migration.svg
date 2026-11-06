@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650" role="img" aria-labelledby="title">
+<title id="title">Identical lamp command with different output bits after remapping</title>
+<rect width="1000" height="650" rx="32" fill="#102832"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#f4fbfa">
+<text x="64" y="81" font-size="46" font-weight="bold">Same command, new address</text>
+<text x="64" y="135" font-size="29" fill="#aee0d2">Both snapshots give lamp_on = 1</text>
+<rect x="64" y="186" width="872" height="157" rx="20" fill="#214551"/>
+<rect x="64" y="368" width="872" height="157" rx="20" fill="#214551"/>
+<g font-size="33" font-weight="bold">
+<text x="104" y="242">Original · active high</text>
+<text x="104" y="424">Remapped · active low</text>
+</g>
+<g font-size="36" font-family="DejaVu Sans Mono, monospace" fill="#bde9d6">
+<text x="104" y="299">%QX0.0 = 1</text>
+<text x="104" y="481">%QX3.2 = 0</text>
+</g>
+<text x="64" y="591" font-size="29" fill="#ffd391">Compare the named command before the raw bit.</text>
+</g></svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="840" viewBox="0 0 1000 840" role="img" aria-labelledby="title">
+<title id="title">One simulated PLC input snapshot, decoded and encoded</title>
+<rect width="1000" height="840" rx="32" fill="#102832"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#f4fbfa">
+<text x="64" y="81" font-size="48" font-weight="bold">Follow one snapshot</text>
+<text x="64" y="132" font-size="28" fill="#aee0d2">Original address map · Python simulation</text>
+<rect x="64" y="172" width="872" height="145" rx="20" fill="#214551"/>
+<rect x="64" y="398" width="872" height="145" rx="20" fill="#214551"/>
+<rect x="64" y="624" width="872" height="145" rx="20" fill="#214551"/>
+<g font-size="34" font-weight="bold">
+<text x="106" y="224">1 · Raw input image</text>
+<text x="106" y="450">2 · Named values for logic</text>
+<text x="106" y="676">3 · Encoded output image</text>
+</g>
+<g font-family="DejaVu Sans Mono, monospace" font-size="29" fill="#bde9d6">
+<text x="106" y="278">%IX0.0 = 1     %IX0.1 = 1</text>
+<text x="106" y="504">part_present = 1    bin_full = 0</text>
+<text x="106" y="730">lamp_on = 1   →   %QX0.0 = 1</text>
+</g>
+<g stroke="#ffd391" stroke-width="4" fill="none"><path d="M106 333v47m-10-10 10 10 10-10"/><path d="M106 559v47m-10-10 10 10 10-10"/></g>
+<g font-size="29" fill="#ffd391">
+<text x="138" y="370">Decode: bin_full is active low</text>
+<text x="138" y="597">Apply logic, then encode</text>
+</g></g></svg>

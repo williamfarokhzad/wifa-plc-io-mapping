@@ -1,0 +1,28 @@
+{
+  "map": {
+    "channels": [
+      {
+        "tag": "part_present",
+        "address": "%IX2.4",
+        "direction": "input",
+        "active_low": false
+      },
+      {
+        "tag": "bin_full",
+        "address": "%IX2.5",
+        "direction": "input",
+        "active_low": true
+      },
+      {
+        "tag": "lamp_on",
+        "address": "%QX3.2",
+        "direction": "output",
+        "active_low": true
+      }
+    ]
+  },
+  "input_image": {
+    "%IX2.4": 1,
+    "%IX2.5": 1
+  }
+}
